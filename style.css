@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+* {
+  margin: 0;
+    
+  padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.header{
+    background-color:black; /* Un color de fondo para que se vea */
+    height: 150px; /* Altura del header */
+    width: 100%; /* Ancho del header */
+    display: flex; /* Activa flexbox */
+    justify-content:  space-around; /* Distribuye los elementos horizontalmente */
+    align-items:center; /* Alinea los elementos verticalmente */
+    padding: 0 10px; /* Un poco de espacio a los lados */
+    color: white; /* Color del texto */
+    font-family: "Bebas Neue", sans-serif; /* Fuente del texto */
+    
+}
+
+.header img {
+    height: 90px; /* Altura del logo */
+}
+
+.header nav {
+    display:flex; /* Activa flexbox en la navegación */
+    gap: 50px; /* Espacio entre los enlaces */
+    font-family: "Monserrat", sans-serif; /* Fuente de los enlaces */
+    font-size: 1.2em; /* Tamaño del texto */
+}
+
+.header nav a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid white; /* Borde blanco */
+    font-size: 30px;
+    background-color:black;
+    padding: 5px 3px; /* Espacio interno */
+    /*color: white;  Color del texto */
+}
+
+.titulo{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-size: 3.5em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 20px 0; /* Margen arriba y abajo */
+}
+
+.parrafo{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
+    font-size: 1.8em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 20px 0; /* Margen arriba y abajo */
+    padding: 10px 0; /* Espacio interno */
+}
+
+.promociones{
+    display: flex; /* Activa flexbox */
+    justify-content:space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin: 20px 0; /* Margen arriba y abajo */
+    gap: 20px; /* Espacio entre los eleBebas Neuementos */
+    background-color:black;
+    color: white;
+}
+
+.titulo-h2{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-size: 5.0em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 10px 0; /* Margen arriba y abajo */
+    background-color:grey;
+}
+
+.dias{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-size: 1.5em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 20px 0; /* Margen arriba y abajo */
+}
+
+.imgpromo{
+    width: 180px; /* Ancho de la imagen */
+    height: 300px; /* Altura de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    gap: 5px; /* Espacio entre los elementos */
+}
+.titulo-h3{
+    font-family: 'Bebas Neue', sans-serif; /* Fuente del título */
+    font-size: 5.0em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 10px 0; /* Margen arriba y abajo */
+    background-color:grey;
+}
+
+.productos{
+    display: flex; /* Activa flexbox */
+    justify-content:space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin: 10px 0; /* Margen arriba y abajo */
+    gap: 20px; /* Espacio entre los elementos */
+    background-color: black;
+    
+}
+
+.parrafo-carnes{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
+    font-size: 3.5em; /* Tamaño del texto */
+    text-align:center; /* Alineación centrada */
+    margin: 0px 10px; /* Margen arriba y abajo */
+    padding: 3px 5; /* Espacio interno */
+    border: 2px solid black;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.descripcion{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
+    font-size: 1.0em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 20px 0; /* Margen arriba y abajo */
+    padding: 10px 0; /* Espacio interno */
+    color: white;
+}
+
+.imgproduc{
+    width: 180px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.locales{
+    display: flex; /* Activa flexbox */
+    justify-content:flex-start; /* Distribuye los elementos horizontalmente */
+    align-items:flex-end; /* Alinea los elementos verticalmente */
+    margin: 20px 5px; /* Margen arriba y abajo */
+    gap: 10px; /* Espacio entre los elementos */
+    background-color:black;
+    
+}
+
+.nuestros-locales{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-size: 3.5em; /* Tamaño del texto */
+    text-align:center; /* Alineación centrada */
+    margin: 0 0; /* Margen arriba y abajo */
+    background-color:grey;
+    gap: 10px; /* Espacio entre los elementos */
+    
+}
+
+.lista-locales{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
+    font-size: 1.5em; /* Tamaño del texto */
+    text-align:flex; /* Alineación centrada */
+    margin: 10px 0; /* Margen arriba y abajo */
+    padding: 20px 5px; /* Espacio interno */
+    background-color:black;
+    color: white; 
+    gap: 10px; /* Espacio entre los elementos */
+   
+    
+}
+
+.lista-locales li {
+    display: flex; /* Usar flexbox en cada elemento de la lista */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    display: flex; /* Activa flexbox */
+    gap: 15px; /* Espacio entre los elementos */
+   
+    
+}
+
+.lista-locales a {
+    text-decoration: none; /* Esto elimina el subrayado */
+    color: white; /* Color del texto */
+}
+
+
+.maps{
+    width: 250px; /* Ancho del mapa */
+    height: 200px; /* Altura del mapa */
+    margin: 10px 0;/*  Margen arriba y abajo */
+    border-radius: 10px; /* Bordes redondeados */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.contactanos{
+    display: flex; 
+    justify-content: center;/* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin: 20px 0; /* Margen arriba y abajo */
+    gap: 20px; /* Espacio entre los elementos */
+    background-color:grey;
+    color: black;
+    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-size: 3.5em; /* Tamaño del texto */
+    text-align:center; /* Alineación centrada */
+}
+
+.contactos{
+    display: flex; /* Activa flexbox */
+    justify-content:center; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin: 2px 0; /* Margen arriba y abajo */
+    gap: 50px; /* Espacio entre los elementos */
+    background-color:black;
+    color: white;
+}
+
+.cont{
+    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-size: 2.0em; /* Tamaño del texto */
+    text-align:center; /* Alineación centrada */
+    margin: 5px 10px; /* Margen arriba y abajo */
+    background-color:black;
+    gap: 10px; /* Espacio entre los elementos */
+    text-decoration: none; /* Esto elimina el subrayado */
+    color: white; /* Color del texto */
+}
+
+.img-cont{
+    width: 35px; /* Ancho de la imagen */
+    height: 35px; /* Altura de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    gap: 5px; /* Espacio entre los elementos */
+    
+}
+
+@media (max-width: 508px) {
+    .header {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        height: 70px; /* Altura del header */
+    }
+    .header img {
+        height: 200px; /* Altura del logo */
+    }
+    .header nav {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        gap: 10px; /* Espacio entre los enlaces */
+    }
+    .titulo {
+        font-size: 2.5em; /* Tamaño del texto */
+    }
+    .parrafo {
+        font-size: 1.5em; /* Tamaño del texto */
+    }
+    .promociones {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        gap: 10px; /* Espacio entre los elementos */
+    }
+    .titulo-h2 {
+        font-size: 3.5em; /* Tamaño del texto */
+    }
+    .dias {
+        font-size: 1.2em; /* Tamaño del texto */
+    }
+    .productos {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        gap: 10px; /* Espacio entre los elementos */
+    }
+    .parrafo-carnes {
+        font-size: 2.5em; /* Tamaño del texto */
+    }
+    .descripcion {
+        font-size: 1.0em; /* Tamaño del texto */
+    }
+    .locales {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        gap: 10px; /* Espacio entre los elementos */
+    }
+    .nuestros-locales {
+        font-size: 2.5em; /* Tamaño del texto */
+    }
+    .lista-locales {
+        font-size: 1.2em; /* Tamaño del texto */
+    }
+    .maps {
+        width: 200px; /* Ancho del mapa */
+        height: 150px; /* Altura del mapa */
+    }
+    .contactanos {
+        font-size: 2.5em; /* Tamaño del texto */
+    }
+    .contactos {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        gap: 10px; /* Espacio entre los elementos */
+    }
+    .cont {
+        font-size:1.5em; /* Tamaño del texto */
+      
+}
+}
+
+
+
