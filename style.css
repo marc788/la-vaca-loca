@@ -244,10 +244,7 @@ body{
     .header img {
         height: 200px; /* Altura del logo */
     }
-    .header nav {
-        flex-direction: column; /* Cambia la dirección de los elementos */
-        gap: 10px; /* Espacio entre los enlaces */
-    }
+    
     .titulo {
         font-size: 2.5em; /* Tamaño del texto */
     }
