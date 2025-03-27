@@ -239,15 +239,15 @@ body{
 
 @media (max-width: 708px) {
     .header {
-        flex-direction:row; /* Cambia la dirección de los elementos */
-        height: 200px; /* Altura del header */
+        flex-direction:row-reverse; /* Cambia la dirección de los elementos */
+        height: 180px; /* Altura del header */
     }
     .header img {
         height: 100px; /* Altura del logo */
     }
     .header nav {
         flex-direction:row; /* Cambia la dirección de los elementos */
-        gap: 10px; /* Espacio entre los enlaces */
+        gap: 5px; /* Espacio entre los enlaces */
     }
     .titulo {
         font-size: 2.5em; /* Tamaño del texto */
