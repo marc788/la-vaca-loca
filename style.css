@@ -240,7 +240,7 @@ body{
 @media (max-width: 708px) {
     .header {
         flex-direction:row; /* Cambia la dirección de los elementos */
-        height: 190px; /* Altura del header */
+        height: 250px; /* Altura del header */
     }
     .header img {
         height: 100px; /* Altura del logo */
