@@ -23,6 +23,7 @@ body{
     padding: 0 10px; /* Un poco de espacio a los lados */
     color: white; /* Color del texto */
     font-family: "Bebas Neue", sans-serif; /* Fuente del texto */
+    z-index: 10;
     
 }
 
