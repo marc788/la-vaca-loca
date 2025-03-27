@@ -238,7 +238,7 @@ body{
 
 @media (max-width: 508px) {
     .header {
-        flex-direction: column; /* Cambia la dirección de los elementos */
+        flex-direction: column-reverse; /* Cambia la dirección de los elementos */
         height: 70px; /* Altura del header */
     }
     .header img {
