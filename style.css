@@ -246,7 +246,7 @@ body{
         height: 100px; /* Altura del logo */
     }
     .header nav {
-        flex-direction:row; /* Cambia la dirección de los elementos */
+        flex-direction:row-reverse; /* Cambia la dirección de los elementos */
         gap: 5px; /* Espacio entre los enlaces */
     }
     .titulo {
