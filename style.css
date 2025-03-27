@@ -240,6 +240,7 @@ body{
     .header {
         flex-direction: column-reverse; /* Cambia la dirección de los elementos */
         height: 70px; /* Altura del header */
+        z-index: 10;
     }
     .header img {
         height: 200px; /* Altura del logo */
