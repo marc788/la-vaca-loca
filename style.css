@@ -139,13 +139,13 @@ body{
 }
 
 .locales{
-    flex-direction:initial;
-     display:flexbox; /* Activa flexbox */
-    justify-content:flex-start; /* Distribuye los elementos horizontalmente */
-    align-items:flex-end; /* Alinea los elementos verticalmente */
-    margin: 20px 5px; /* Margen arriba y abajo */
-    gap: 10px; /* Espacio entre los elementos */
-    background-color:black;
+        display: flex; /* Activa flexbox */
+        flex-direction: column; /* Cambia la dirección a columna */
+        justify-content: flex-start; /* Alinea los elementos al inicio */
+        align-items: center; /* Centra los elementos horizontalmente */
+        margin: 20px 5px; /* Margen arriba y abajo */
+        gap: 10px; /* Espacio entre los elementos */
+        background-color: black;
     
 }
 
