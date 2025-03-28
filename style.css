@@ -139,7 +139,7 @@ body{
 }
 
 .locales{
-    flex-direction:row;
+    flex-direction:initial;
      display:flexbox; /* Activa flexbox */
     justify-content:flex-start; /* Distribuye los elementos horizontalmente */
     align-items:flex-end; /* Alinea los elementos verticalmente */
