@@ -139,7 +139,7 @@ body{
 }
 
 .locales{
-     display: none; /* Activa flexbox */
+     display: flex; /* Activa flexbox */
     justify-content:space-around; /* Distribuye los elementos horizontalmente */
     align-items:flex-end; /* Alinea los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
