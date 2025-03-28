@@ -173,7 +173,7 @@ body{
 
 .lista-locales li {
     display: flex; /* Usar flexbox en cada elemento de la lista */
-    align-items: center; /* Centrar verticalmente */
+    align-items:flex-end; /* Centrar verticalmente */
     justify-content: center; /* Centrar horizontalmente */
     display: flex; /* Activa flexbox */
     gap: 15px; /* Espacio entre los elementos */
