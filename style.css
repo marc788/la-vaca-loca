@@ -139,7 +139,7 @@ body{
 }
 
 .locales{
-    display: flex; /* Activa flexbox */
+     /* Activa flexbox */
     justify-content:flex-start; /* Distribuye los elementos horizontalmente */
     align-items:flex-end; /* Alinea los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
@@ -161,7 +161,7 @@ body{
 .lista-locales{
     font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
     font-size: 1.5em; /* Tamaño del texto */
-    text-align:flex; /* Alineación centrada */
+    text-align:left; /* Alineación centrada */
     margin: 10px 0; /* Margen arriba y abajo */
     padding: 20px 5px; /* Espacio interno */
     background-color:black;
@@ -172,7 +172,7 @@ body{
 }
 
 .lista-locales li {
-    display: flex; /* Usar flexbox en cada elemento de la lista */
+     /* Usar flexbox en cada elemento de la lista */
     align-items:flex-end; /* Centrar verticalmente */
     justify-content: center; /* Centrar horizontalmente */
     display: flex; /* Activa flexbox */
