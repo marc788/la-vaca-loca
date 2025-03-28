@@ -139,8 +139,9 @@ body{
 }
 
 .locales{
+    flex-direction: column;
      display: flex; /* Activa flexbox */
-    justify-content:space-around; /* Distribuye los elementos horizontalmente */
+    justify-content:flex-start; /* Distribuye los elementos horizontalmente */
     align-items:flex-end; /* Alinea los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
     gap: 10px; /* Espacio entre los elementos */
