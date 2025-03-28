@@ -138,15 +138,14 @@ body{
     border-radius: 10px; /* Bordes redondeados */
 }
 
-.locales{
-        display: flex; /* Activa flexbox */
-        flex-direction: column; /* Cambia la dirección a columna */
-        justify-content: flex-start; /* Alinea los elementos al inicio */
-        align-items: center; /* Centra los elementos horizontalmente */
-        margin: 20px 5px; /* Margen arriba y abajo */
-        gap: 10px; /* Espacio entre los elementos */
-        background-color: black;
-    
+.locales {
+    display: flex; /* Activa flexbox */
+    flex-direction: row; /* Cambia la dirección a fila */
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin: 20px 5px; /* Margen arriba y abajo */
+    gap: 10px; /* Espacio entre los elementos */
+    background-color: black;
 }
 
 .nuestros-locales{
