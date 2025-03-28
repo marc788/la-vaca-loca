@@ -140,7 +140,7 @@ body{
 
 .locales{
     flex-direction:row;
-     display: flex; /* Activa flexbox */
+     display:flexbox; /* Activa flexbox */
     justify-content:flex-start; /* Distribuye los elementos horizontalmente */
     align-items:flex-end; /* Alinea los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
