@@ -139,8 +139,8 @@ body{
 }
 
 .locales{
-     /* Activa flexbox */
-    justify-content:flex-start; /* Distribuye los elementos horizontalmente */
+     display: none; /* Activa flexbox */
+    justify-content:space-around; /* Distribuye los elementos horizontalmente */
     align-items:flex-end; /* Alinea los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
     gap: 10px; /* Espacio entre los elementos */
@@ -174,8 +174,8 @@ body{
 .lista-locales li {
      /* Usar flexbox en cada elemento de la lista */
     align-items:flex-end; /* Centrar verticalmente */
-    justify-content:flex-end; /* Centrar horizontalmente */
-     /* Activa flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    display: flex; /* Activa flexbox */
     gap: 15px; /* Espacio entre los elementos */
    
     
