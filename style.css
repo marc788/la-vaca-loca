@@ -140,8 +140,8 @@ body{
 
 .locales {
     display: flex; /* Activa flexbox */
-    flex-direction: row; /* Cambia la dirección a fila */
-    justify-content: flex-start; /* Alinea los elementos al inicio */
+    /* flex-direction: row; Cambia la dirección a fila */
+    justify-content:space-between; /* Alinea los elementos al inicio */
     align-items: center; /* Centra los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
     gap: 10px; /* Espacio entre los elementos */
@@ -173,7 +173,7 @@ body{
 
 .lista-locales li {
      /* Usar flexbox en cada elemento de la lista */
-    align-items:flex-end; /* Centrar verticalmente */
+    align-items:center; /* Centrar verticalmente */
     justify-content:space-around; /* Centrar horizontalmente */
     display: flex; /* Activa flexbox */
     gap: 15px; /* Espacio entre los elementos */
@@ -188,8 +188,8 @@ body{
 
 
 .maps{
-    width: 250px; /* Ancho del mapa */
-    height: 200px; /* Altura del mapa */
+    width: 180px; /* Ancho del mapa */
+    height: 300px; /* Altura del mapa */
     margin: 10px 0;/*  Margen arriba y abajo */
     border-radius: 10px; /* Bordes redondeados */
     gap: 10px; /* Espacio entre los elementos */
