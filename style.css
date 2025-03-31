@@ -140,7 +140,7 @@ body{
 
 .locales {
     display: flex; /* Activa flexbox */
-    /* flex-direction: row; Cambia la dirección a fila */
+     flex-direction: row; /*Cambia la dirección a fila */
     justify-content:space-between; /* Alinea los elementos al inicio */
     align-items: center; /* Centra los elementos verticalmente */
     margin: 20px 5px; /* Margen arriba y abajo */
@@ -172,7 +172,7 @@ body{
 }
 
 .lista-locales li {
-     /* Usar flexbox en cada elemento de la lista */
+    display: flex; /* Usar flexbox en cada elemento de la lista */
     align-items:center; /* Centrar verticalmente */
     justify-content:space-around; /* Centrar horizontalmente */
     display: flex; /* Activa flexbox */
