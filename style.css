@@ -138,7 +138,7 @@ body{
     border-radius: 10px; /* Bordes redondeados */
 }
 
-.locales {
+.locales{
     display: flex; /* Activa flexbox */
      flex-direction: row; /*Cambia la dirección a fila */
     justify-content:space-between; /* Alinea los elementos al inicio */
