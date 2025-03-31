@@ -151,7 +151,7 @@ body{
 .nuestros-locales{
     font-family: "Bebas Neue", sans-serif; /* Fuente del título */
     font-size: 3.5em; /* Tamaño del texto */
-    text-align:justify; /* Alineación centrada */
+   /* text-align:justify; /* Alineación centrada */
     margin: 0 0; /* Margen arriba y abajo */
     background-color:grey;
     gap: 10px; /* Espacio entre los elementos */
@@ -174,7 +174,7 @@ body{
 .lista-locales li {
     display: flex; /* Usar flexbox en cada elemento de la lista */
     align-items:center; /* Centrar verticalmente */
-    justify-content:space-around; /* Centrar horizontalmente */
+    /*justify-content:space-around; /* Centrar horizontalmente */
     display: flex; /* Activa flexbox */
     gap: 15px; /* Espacio entre los elementos */
    
