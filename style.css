@@ -140,12 +140,12 @@ body{
 
 .locales{
     display: flex; /* Activa flexbox */
-     flex-direction: row; /*Cambia la dirección a fila */
-    justify-content:space-between; /* Alinea los elementos al inicio */
-    align-items: center; /* Centra los elementos verticalmente */
-    margin: 20px 5px; /* Margen arriba y abajo */
-    gap: 10px; /* Espacio entre los elementos */
-    background-color: black;
+    justify-content:space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin: 20px 0; /* Margen arriba y abajo */
+    gap: 20px; /* Espacio entre los eleBebas Neuementos */
+    background-color:black;
+    color: white;
 }
 
 .nuestros-locales{
