@@ -231,7 +231,7 @@ body{
 
 .img-cont{
     width: 35px; /* Ancho de la imagen */
-    height: 2em; /* Altura de la imagen */
+    height: 10px; /* Altura de la imagen */
     border-radius: 10px; /* Bordes redondeados */
     gap: 5px; /* Espacio entre los elementos */
     
