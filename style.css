@@ -230,7 +230,7 @@ body{
 }
 
 .img-cont{
-    width: 40px; /* Ancho de la imagen */
+    width: 35px; /* Ancho de la imagen */
     height: 35px; /* Altura de la imagen */
     border-radius: 10px; /* Bordes redondeados */
     gap: 5px; /* Espacio entre los elementos */
