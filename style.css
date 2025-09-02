@@ -171,29 +171,7 @@ body{
     
 }
 
-.lista-locales li {
-    display: flex; /* Usar flexbox en cada elemento de la lista */
-    align-items:center; /* Centrar verticalmente */
-    justify-content:space-around; /* Centrar horizontalmente */
-    display: flex; /* Activa flexbox */
-    gap: 15px; /* Espacio entre los elementos */
-   
-    
-}
 
-.lista-locales a {
-    text-decoration: none; /* Esto elimina el subrayado */
-    color: white; /* Color del texto */
-}
-
-
-.maps{
-    width: 180px; /* Ancho del mapa */
-    height: 300px; /* Altura del mapa */
-    margin: 10px 0;/*  Margen arriba y abajo */
-    border-radius: 10px; /* Bordes redondeados */
-    gap: 10px; /* Espacio entre los elementos */
-}
 
 .contactanos{
     display: flex; 
