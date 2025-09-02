@@ -149,12 +149,13 @@ body{
 }
 
 .nuestros-locales{
-    font-family: "Bebas Neue", sans-serif; /* Fuente del título */
+    font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
     font-size: 3.5em; /* Tamaño del texto */
-    text-align:justify; /* Alineación centrada */
-    margin: 0 0; /* Margen arriba y abajo */
-    background-color:grey;
-    gap: 10px; /* Espacio entre los elementos */
+    text-align:center; /* Alineación centrada */
+    margin: 0px 10px; /* Margen arriba y abajo */
+    padding: 3px 5; /* Espacio interno */
+    border: 2px solid black;
+    border-radius: 5px; /* Bordes redondeados */
     
 }
 
