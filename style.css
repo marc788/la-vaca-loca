@@ -159,9 +159,9 @@ body{
 
 .lista-locales{
     font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
-    font-size: 1.0em; /* Tamaño del texto */
+    font-size: 2.0em; /* Tamaño del texto */
     text-align: center; /* Alineación centrada */
-    margin: 20px 0; /* Margen arriba y abajo */
+    margin: 15vpx 0; /* Margen arriba y abajo */
     padding: 10px 0; /* Espacio interno */
     color: white;  
 }
