@@ -142,10 +142,9 @@ body{
     display: flex; /* Activa flexbox */
     justify-content:space-between; /* Distribuye los elementos horizontalmente */
     align-items: center; /* Alinea los elementos verticalmente */
-    margin: 20px 0; /* Margen arriba y abajo */
-    gap: 20px; /* Espacio entre los eleBebas Neuementos */
-    background-color:black;
-    color: white;
+    margin: 10px 0; /* Margen arriba y abajo */
+    gap: 20px; /* Espacio entre los elementos */
+    background-color: black;
 }
 
 .nuestros-locales{
@@ -156,23 +155,22 @@ body{
     padding: 3px 5; /* Espacio interno */
     border: 2px solid black;
     border-radius: 5px; /* Bordes redondeados */
-    
 }
 
 .lista-locales{
     font-family: "Bebas Neue", sans-serif; /* Fuente del párrafo */
-    font-size: 1.5em; /* Tamaño del texto */
-    text-align:justify; /* Alineación centrada */
-    margin: 10px 0; /* Margen arriba y abajo */
-    padding: 20px 5px; /* Espacio interno */
-    background-color:black;
-    color: white; 
-    gap: 10px; /* Espacio entre los elementos */
-   
-    
+    font-size: 1.0em; /* Tamaño del texto */
+    text-align: center; /* Alineación centrada */
+    margin: 20px 0; /* Margen arriba y abajo */
+    padding: 10px 0; /* Espacio interno */
+    color: white;  
 }
 
-
+.maps{
+    width: 180px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
 
 .contactanos{
     display: flex; 
