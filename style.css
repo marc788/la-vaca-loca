@@ -212,6 +212,7 @@ body{
     height: 20px; /* Altura de la imagen */
     border-radius: 10px; /* Bordes redondeados */
     gap: 5px; /* Espacio entre los elementos */
+    text-align:center; /* Alineación centrada */
     
 }
 
