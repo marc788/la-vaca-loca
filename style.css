@@ -178,7 +178,7 @@ body{
     justify-content: center;/* Distribuye los elementos horizontalmente */
     align-items: center; /* Alinea los elementos verticalmente */
     margin: 20px 0; /* Margen arriba y abajo */
-    gap: 20px; /* Espacio entre los elementos */
+    gap: 5px; /* Espacio entre los elementos */
     background-color:grey;
     color: black;
     font-family: "Bebas Neue", sans-serif; /* Fuente del título */
